@@ -131,7 +131,7 @@ Once these errors were identified and rectified the email works just as expected
 
 Travis CI was used to continuously test the building of the app.
 
-[![Build Status](https://travis-ci.com/AlanOSheadev/Rodfendr.svg?branch=master)](https://travis-ci.com/AlanOSheadev/Rodfendr) 
+[![Build Status](https://travis-ci.com/AlanOSheadev/Rodfendr.svg?branch=master)](https://travis-ci.com/AlanOSheadev/Alvention) 
  
 Responsiveness:  The site was tested on multiple devices (iPhone 4, 5/SE,6,7,8 iPhone 6,7,8 plus, iPhone X : Chrome and Safari, iPad, iPad Pro,Samsung Galaxy Slll,5S)  and was shown to load and respond as expected with all the buttons being visible and functioning in accordance with expectations 
  
