@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+<div class="row">
+    <div class="col-sm-10 col-md-9">
+        {% if post.image %}
+        <div class="product" style="background-image: url('{{ MEDIA_URL }}{{ post.image }}')"></div>
+        {% endif %}
+        <h3><img src="https://alans-ecommerce.s3-eu-west-1.amazonaws.com/media/images/New+Logo.PNG"  width="90" height="70" alt=""> {{ post.product }}</h3>
+        <div class="row">
+            <div class="col-xs-9">
+                <p>{{ post.content }}</p>
+                <p><span class="boldtext">Published on:</span> {{ post.published_date }} </p>
+                <p><span class="boldtext">Views:</span> {{post.views}}</p>
+                <a href="{% url 'get_posts' %}" class="btn btn-default">Back to reviews</a>
+                <hr>
+                <p><span class="boldtext">Author:</span>{{ post.author }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
