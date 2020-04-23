@@ -42,8 +42,16 @@
     </div>
     <div class="container">
     <div class="row row-flex">
+        <div class="col-md-4 text-center"><a style="font-size: medium" class="btn btn-success" href="https://alanosheadev.github.io/Love-Fishing-/" target="blank">Planning your next fishing trip?<br> Check out our Kerry trip planner.<i class="fa fa-plane" aria-hidden="true"></i></a></div>
+        <div class="col md-4"> </div>
+        <div class="col-md-4 text-center"><a style="font-size: medium" class="btn btn-success" href="https://flies-fish-love.herokuapp.com/" target="blank">We have listed the instructions for <br>some of our favourite flies here <i class="fa fa-bug" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+    <div class="row row-flex">
         <div class="col-md-4 text-center"><a style="font-size: medium" class="btn-purple" href="{% url 'get_posts' %}">Check out our product reviews here <i class="fa fa-smile-o" aria-hidden="true"></i></a></div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4"> </div>
             <div class="col-md-4 text-center">
                 <form action="{% url 'search' %}" method="get" class="search">
                     <input type="text" name="q">
