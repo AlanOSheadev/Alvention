@@ -22,6 +22,7 @@ from search import urls as urls_search
 from checkout import urls as urls_checkout
 from privacy import urls as urls_privacy
 from contact_us import urls as urls_contact_us
+from aboutus import urls as urls_aboutus
 from reviews import urls as urls_reviews
 from products.views import all_products
 from django.views import static
@@ -37,6 +38,7 @@ urlpatterns = [
     url(r'^checkout/', include(urls_checkout)),
     url(r'^privacy/', include(urls_privacy)),
     url(r'^contact_us/', include(urls_contact_us)),
+    url(r'^aboutus/', include(urls_aboutus)),
     url(r'^reviews/', include(urls_reviews)),
     url(r'^media/(?P<path>.*)$', static.serve, {'document_root': MEDIA_ROOT})
 ]

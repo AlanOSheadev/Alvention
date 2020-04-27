@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get('https://github.com/AlanOSheadev/Alvention'),
                  'alvention.herokuapp.com', 'localhost', 'https://8000-ce291e50-a0c9-43fc-9255-696bfbcff8e7.ws-eu01.gitpod.io/']
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'privacy',
     'contact_us',
     'reviews',
+    'aboutus',
 ]
 
 MIDDLEWARE = [
