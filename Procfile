@@ -1,1 +1,1 @@
-web: gunicorn Alvention.wsgi:application
+web: python app.py
